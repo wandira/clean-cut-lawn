@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* header */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        z-index: 1;
+    }
+    .nav-header{
+        width: 100%;
+        position: fixed;
+        background-color: teal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-menu{
+        list-style: none;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    
+    #registerr{
+        transition: transform .4s;
+    }
+    #registerr:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+        
+    }
+    #indexx{
+        transition: transform .4s;
+    }
+    #indexx:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+    .nav-menu li{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .nav-menu a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+/* footer */
+footer{
+    background-color: teal;
+}
+    .nav-footer{
+        justify-content: center;
+        display: flex;
+        z-index: 2;
+    }
+    #instagram{
+        width: 30px;
+        padding-right: 5px;
+        transition: transform .4s;
+    }
+    #instagram:hover{
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+    #twitter{
+        width: 30px;
+        padding-right: 5px;
+        transition: transform .4s;
+    }
+    #twitter:hover{
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
+/* index.html */
+
+    /* Banner style */
+    #wrapper{
+        width: 100%;
+        overflow: hidden;
+    }
+    #container{
+        width: 100%;
+        margin: -50px auto;
+    }
+    .responsive{
+        width: 100%;
+        max-height: 600px;
+        height: auto;
+    }
+
+    /* Isi */
+    .content{
+        text-indent: 5px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .title{
+        padding: 50px;
+    }
+    #lawnParagraph{
+        padding-bottom: 180px;
+    }
+    .title-1{
+        display: inline-block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid rgb(129, 87, 87);
+        border-top: 2px solid   rgb(129, 87, 87);
+    }
+    /* Dua Kolom */
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 500px;
+        background-color:rgba(214, 211, 212, 0.596);
+        transition: transform .4s;
+    }
+    .column:hover{
+        background-color: rgba(0, 128, 128, 0.103);
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        transform: scale(1.05);
+    }
+    .responsive2{
+        width: 60%;
+        max-height: 300px;
+        height: auto;
+    }
+  
+  /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: flex;
+        clear:both;
+    }
+
+/* register.html */
+.regbody{
+    background-image: url('../Assets/people.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#regisheader{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.regis{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.76);
+    text-align: left;
+  }
+  
+input[type=text]:focus {
+    background-color: rgba(173, 209, 230, 0.74);
+    }
+input[type=submit]{
+    background-color: rgb(3, 102, 102);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    #wandira{
+        position: absolute;
+        margin: 22px;
+        font: small-caption;
+    }
+      
+  
